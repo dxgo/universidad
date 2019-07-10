@@ -6,8 +6,8 @@ class IndexRoutes {
         this.config();
     }
     config(): void{
-        this.router.get('/', (req,res)=>res.send('Hello'));
+        this.router.get('/', );
     }
 }
 const indexRoutes = new IndexRoutes();
-export default indexRoutes.router;
+export default indexRoutes.router; 
